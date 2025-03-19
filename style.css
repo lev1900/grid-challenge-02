@@ -5,3 +5,8 @@ div[class^="col"]{
 .row{
     border: 1px dashed red;
 }
+.img-fluid {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+    }
